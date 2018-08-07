@@ -17,7 +17,7 @@ N_IDEAS = 6             # think of this as number of ideas for generating an art
 ART_COMPONENTS = 2     # it could be total point G can draw in the canvas
 reportdate = "2018-07-01"
 
-conn = pymysql.Connect(host='192.168.101.71',port=3306,user='analyst',passwd='545b4ae90d0bf01aa79a3c0d51a7f10c',db='datacenter',charset='utf8')
+conn = pymysql.Connect(host='192.168.101.71',port=3306,user='****',passwd='******',db='datacenter',charset='utf8')
 cursor = conn.cursor()
 
 sqlcount = "select count(cost) from dc_stat_rev_tag where revenue >cost and cost is not null and revenue is not null and report_date ='%s'"  %reportdate
