@@ -18,7 +18,7 @@ ART_COMPONENTS = 2     # it could be total point G can draw in the canvas
 input_size = 6
 
 
-conn = pymysql.Connect(host='192.168.101.71',port=3306,user='analyst',passwd='545b4ae90d0bf01aa79a3c0d51a7f10c',db='datacenter',charset='utf8')
+conn = pymysql.Connect(host='192.168.101.71',port=3306,user='******',passwd='******',db='datacenter',charset='utf8')
 cursor = conn.cursor()
 sqlxg = "select cost/cost_clicks,revenue-cost as profit from dc_stat_rev_tag where cost is not null and cost_clicks >0 and revenue is not null and revenue>cost limit "
 sqlxg += str(BATCH_SIZE)
