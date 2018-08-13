@@ -54,8 +54,4 @@ atopic dermatitis	inuvo_lexo	1273738	349490	928	2	11.722599
 2.3：模型源码
 自动调优的源码autoweight.py(文件我放在192.168.101.70的autobid目录下)
 如果需要看模型效果把注释去掉就能看到：
-# if step % 50 == 0:
-#     #print('D_loss', "%.6f"%D_loss.data)
-#     # print('G_loss', G_loss)
-#     # print("\n")
-# File.write(str("%.6f"%D_loss.data)+" ,"+str("%.6f"%G_loss.data) + "\n")
+
