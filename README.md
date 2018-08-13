@@ -1,5 +1,5 @@
 # online-ad-Automatic-adjustment2
-广告自动调价算法介绍
+在线广告自动调价算法介绍
 1：Bid的自动出价算法
 2：Weight的自动调优算法
 
